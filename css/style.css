@@ -1,0 +1,31 @@
+@import url(reset.css);
+
+body{
+  background-color: darkgrey;
+}
+
+.lab-container{
+  margin: 200px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.lab{
+  /*z-index is decreased by the JS*/
+  z-index: 1000;
+  /*the change in the size of the border and margin should be proportional*/
+  border: black 2px solid;
+  margin: -1px auto;
+  /*pure decoration */
+  font-size: 25px;
+  border-radius: 9px;
+  text-align: center;
+  background-color: white;
+  padding: 3px 6px;
+}
+
+
+
+
+
+
